@@ -4,6 +4,7 @@
 * Introduction
 * Différence entre Relational et Graph base de données
 * Avantages et Inconvénients
+* Cypher Query Language CQL
 * Conclusion
 * Installation
 * Tutoriel
