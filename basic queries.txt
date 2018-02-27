@@ -1,0 +1,22 @@
+delete everything
+_________________
+
+MATCH (n)
+DETACH DELETE n
+
+
+return everything
+_________________
+MATCH (n)
+RETURN n
+
+create node
+___________
+CREATE (n:USER {name: 'pascal'})
+
+create relationship
+___________________
+MATCH (a:USER),(b:USER)
+WHERE a.name = 'Dany' AND b.name = 'Pascal'
+CREATE (a)-[r:IS_FRIEND_OF]->(b)
+RETURN r
